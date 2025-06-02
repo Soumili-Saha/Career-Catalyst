@@ -24,7 +24,7 @@ def youtube_search(query, api_key, max_results=3):
         "q": query,
         "type": "video",
         "maxResults": max_results,
-        "key": "AIzaSyAex-XVQ4AmXetNrgREc8C9hHU4ZdEvwxc"
+        "key": your_api_key
     }
     response = requests.get(url, params=params)
     if response.status_code == 200:
