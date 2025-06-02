@@ -1,7 +1,7 @@
 import requests
 
 
-API_KEY = "AIzaSyAex-XVQ4AmXetNrgREc8C9hHU4ZdEvwxc"
+API_KEY = your_api_key
 SEARCH_QUERY = "pokemon ash vs leon"
 
 youtube_url = "https://www.googleapis.com/youtube/v3/search"
