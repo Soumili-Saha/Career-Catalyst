@@ -104,7 +104,7 @@ for job in jobs:
     # page += 1
 
 # Skill gap analysis and course recommendations
-api_key = "AIzaSyAex-XVQ4AmXetNrgREc8C9hHU4ZdEvwxc"
+api_key = your_api_key
 target_job = input("\nEnter the job title to analyze skill gaps (e.g., Data Scientist): ").lower()
 target_jobs = jobs_df[jobs_df['Job Title'].str.lower() == target_job]
 
